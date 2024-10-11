@@ -1,0 +1,64 @@
+nav {
+    width: 100%;
+    background-color: rgb(179, 220, 255);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+
+    a:visited{
+        color: chartreuse;
+    }
+}
+
+#container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+#hobby{
+  width: 80%;
+  margin: 100px auto;
+}
+
+#hobby-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box {
+ width: 25%;
+ border: 1px solid black;
+ padding: 10px;
+}
+
+h5 {
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
